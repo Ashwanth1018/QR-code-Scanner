@@ -1,0 +1,25 @@
+name: qr_attend
+description: A college ID card QR scanner that extracts register numbers on-device.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+  flutter: '>=3.29.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: 1.1.2
+  mobile_scanner: ^7.4.2
+  path: 1.9.1
+  path_provider: 2.1.5
+  sqflite: 2.4.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
